@@ -52,9 +52,38 @@ When DnaSample has been successfully processed,
 
 ---
 ## Request Service Staking
-TODO:
+Users create a service request by calling the transaction `createRequest` in ServiceRequest smart contract.
+Labs can claim a request by creating an offer to the request by calling the transaction `claimRequest`.
+Only labs that are curated can claim a request.
+Labs are curated by DAOGenics. The DAOGenics wallet curate a lab by calling the transaction `curateLab`. It can also remove a lab from the curated list by calling `uncurateLab`.
+
+### Customer Create Request
+[miro](https://miro.com/app/board/o9J_l4oDB-g=/?moveToWidget=3074457364121820998&cot=14)
+<div align=center>
+<img style="width:100%;" src="./request-service--create-request.png"/>
+</div>
+
+### Curate / Uncurate Lab
+[miro](https://miro.com/app/board/o9J_l4oDB-g=/?moveToWidget=3074457364122308668&cot=14)
+<div align=center>
+<img style="width:100%;" src="./request-service--curate-uncurate-lab.png"/>
+</div>
+
+### Lab Claim Request
+[miro](https://miro.com/app/board/o9J_l4oDB-g=/?moveToWidget=3074457364122243278&cot=14)
+<div align=center>
+<img style="width:100%;" src="./request-service--claim-request.png"/>
+</div>
+
+### Customer Process Request
+[miro](https://miro.com/app/board/o9J_l4oDB-g=/?moveToWidget=3074457364121997893&cot=14)
+<div align=center>
+<img style="width:100%;" src="./request-service--process-request.png"/>
+</div>
+
 
 ---
+
 ## Data as a Service Bounty
 TODO:
 
